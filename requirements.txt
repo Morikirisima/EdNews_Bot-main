@@ -1,0 +1,21 @@
+# Telegram бот (основная функция)
+aiogram==3.22.0
+
+# База данных (PostgreSQL через asyncpg + SQLAlchemy)
+asyncpg==0.30.0
+sqlalchemy==2.0.23
+alembic==1.12.1  # для миграций
+
+# Парсинг (основные инструменты)
+requests==2.32.4
+beautifulsoup4==4.12.2
+lxml==4.9.3
+feedparser==6.0.10
+
+# Утилиты
+PyYAML==6.0.2
+python-dotenv==1.0.0  # для конфигурации
+redis==5.0.1  # для кеша и очередей задач
+
+# Логирование
+loguru==0.7.2
