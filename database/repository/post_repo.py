@@ -1,7 +1,7 @@
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select  # ← убрал func
+from sqlalchemy import select
 from database.models.models import Post
-from datetime import datetime  # ← добавил datetime
+from datetime import datetime
 
 
 class PostRepository:

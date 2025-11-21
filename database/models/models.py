@@ -14,7 +14,7 @@ class Post(Base):
     source_url = Column(String(500), unique=True, nullable=False)
     image_url = Column(String(500))
     category = Column(String(100))
-    status = Column(String(50), defult="parsed")
+    status = Column(String(50), default="parsed")  # ← ИСПРАВИЛ defult на default
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     published_at = Column(DateTime(timezone=True))
     telegram_message_id = Column(Integer)
